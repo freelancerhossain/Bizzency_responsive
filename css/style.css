@@ -1,0 +1,53 @@
+/* =========== Reset Css Start =========== */
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0 auto;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* =========== Reset Css End =========== */
+/* =========== Top Bar Section Css Start =========== */
+#top_bar{
+    background-color: #0f2f44;
+}
+#top_bar p{
+    color: #ffff;
+    margin: 10px 0px;
+}
+/* =========== Top Bar Section Css End =========== */
+/* =========== Nav Section Css Start =========== */
+#primary_nav ul li a{
+    display: inline-block;
+    font-weight: 500;
+    color: #0f2f44;
+    text-transform: capitalize;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 40px 19px;
+    transition: 0.6s;
+}
+#primary_nav ul li a:hover {
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+#primary_nav ul li button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    background: none;
+    margin-left: 20px;
+}
+#primary_nav ul li button:hover {
+    background-color: #fff9e6;
+    color: #ffc712;
+    cursor: pointer;
+}
+body{
+    background-image: url(./../img/Bizzency-bg.jpg);
+
+}
+/* =========== Nav Section Css End =========== */
